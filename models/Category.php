@@ -1,7 +1,4 @@
 <?php
-// Nhúng BaseModel trước
-// require_once PATH_MODEL . 'BaseModel.php'; 
-
 class Category extends BaseModel
 {
     protected $table = 'categories';
