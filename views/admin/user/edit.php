@@ -1,4 +1,4 @@
-<form method="post">
+<form method="POST" action="<?= BASE_URL_ADMIN ?>&action=update-user&id=<?= $user['id'] ?>">
     <div class="mb-3">
         <label>Username</label>
         <input type="text" name="username" value="<?= $user['username'] ?>" class="form-control">
@@ -17,5 +17,5 @@
         </select>
     </div>
 
-    <button class="btn btn-primary">Cập nhật</button>
+    <button type="submit" class="btn btn-primary">Cập nhật</button>
 </form>

@@ -1,4 +1,4 @@
-<form method="post">
+<form method="POST" action="<?= BASE_URL_ADMIN ?>&action=store-user">
     <div class="mb-3">
         <label>Username</label>
         <input type="text" name="username" class="form-control" required>
@@ -22,5 +22,5 @@
         </select>
     </div>
 
-    <button class="btn btn-success">Thêm</button>
+    <button type="submit" class="btn btn-success">Thêm</button>
 </form>
