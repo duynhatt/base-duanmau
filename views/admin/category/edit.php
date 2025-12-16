@@ -1,4 +1,4 @@
-<div class="card">
+<div >
     <div class="card-header">
         <h5>Sửa danh mục</h5>
     </div>
@@ -24,7 +24,7 @@
             </div>
             <div class="mb-3">
                 <label class="form-label">Mô tả</label>
-                <textarea name="description" class="form-control"><?= htmlspecialchars($category['description'] ?? '') ?></textarea>
+                <input name="description" class="form-control"><?= htmlspecialchars($category['description'] ?? '') ?></input>
                 <?php if (!empty($errors['description'])): ?>
                     <div class="text-danger small mt-1"><?= htmlspecialchars($errors['description']) ?></div>
                 <?php endif; ?>

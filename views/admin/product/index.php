@@ -1,5 +1,5 @@
 <a class="btn btn-success" href="<?= BASE_URL_ADMIN ?>&action=create-product">
-        + Thêm sản phẩm
+         tạo mới
     </a>
 <table class="table table-striped">
     <thead>
@@ -27,9 +27,9 @@
             <td><?= $pro["price"] ?></td>
             <td><?= $pro["quantity"] ?></td>
             <td>
-               <a class="btn btn-info" href="<?= BASE_URL_ADMIN ?>&action=show-product&id=<?= $pro["id"] ?>">Xem</a>
-                <a class="btn btn-warning" href="<?= BASE_URL_ADMIN ?>&action=edit-product&id=<?= $pro["id"] ?>">Sửa</a>
-               <a class="btn btn-danger" href="<?= BASE_URL_ADMIN ?>&action=delete-product&id=<?= $pro["id"] ?>" onclick="return confirm('Xác nhận xóa: <?= $pro["name"] ?>?')">Xóa</a>
+               <a class="btn btn-primary btn-sm" href="<?= BASE_URL_ADMIN ?>&action=show-product&id=<?= $pro["id"] ?>">Xem</a>
+                <a class="btn btn-warning btn-sm text-white" href="<?= BASE_URL_ADMIN ?>&action=edit-product&id=<?= $pro["id"] ?>">Sửa</a>
+               <a class="btn btn-danger btn-sm" href="<?= BASE_URL_ADMIN ?>&action=delete-product&id=<?= $pro["id"] ?>" onclick="return confirm('Xác nhận xóa: <?= $pro["name"] ?>?')">Xóa</a>
 
                 
             </td>

@@ -1,4 +1,4 @@
-<div class="card">
+<div>
     <div class="card-header">
         <h5>Danh mục: <?= htmlspecialchars($category['name'] ?? '') ?></h5>
     </div>
@@ -31,9 +31,9 @@
                             <td><?= number_format($p['price']) ?></td>
                             <td><?= htmlspecialchars($p['quantity']) ?></td>
                             <td>
-                                <a class="btn btn-info" href="<?= BASE_URL_ADMIN ?>&action=show-product&id=<?= $p['id'] ?>">Xem</a>
-                                <a class="btn btn-warning" href="<?= BASE_URL_ADMIN ?>&action=edit-product&id=<?= $p['id'] ?>">Sửa</a>
-                                <a class="btn btn-danger" href="<?= BASE_URL_ADMIN ?>&action=delete-product&id=<?= $p['id'] ?>" onclick="return confirm('Xác nhận xóa: <?= htmlspecialchars($p['name']) ?>?')">Xóa</a>
+                                <a class="btn btn-primary btn-sm" href="<?= BASE_URL_ADMIN ?>&action=show-product&id=<?= $p['id'] ?>">Xem</a>
+                                <a class="btn btn-warning btn-sm text-white" href="<?= BASE_URL_ADMIN ?>&action=edit-product&id=<?= $p['id'] ?>">Sửa</a>
+                                <a class="btn btn-danger btn-sm" href="<?= BASE_URL_ADMIN ?>&action=delete-product&id=<?= $p['id'] ?>" onclick="return confirm('Xác nhận xóa: <?= htmlspecialchars($p['name']) ?>?')">Xóa</a>
                             </td>
                         </tr>
                     <?php endforeach; ?>

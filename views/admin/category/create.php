@@ -1,4 +1,4 @@
-<div class="card">
+<div >
     <div class="card-header">
     </div>
     <div class="card-body">
@@ -21,7 +21,7 @@
             </div>
             <div class="mb-3">
                 <label class="form-label">Mô tả</label>
-                <textarea name="description" class="form-control"><?= htmlspecialchars($old['description'] ?? ($_POST['description'] ?? '')) ?></textarea>
+                <input name="description" class="form-control"><?= htmlspecialchars($old['description'] ?? ($_POST['description'] ?? '')) ?></input>
                 <?php if (!empty($errors['description'])): ?>
                     <div class=""><?= htmlspecialchars($errors['description']) ?></div>
                 <?php endif; ?>

@@ -1,4 +1,4 @@
-<div class="card">
+<div class="">
     <div class="card-header">
         <h5>Thêm sản phẩm</h5>
     </div>
@@ -34,16 +34,17 @@
                 <textarea name="description" class="form-control"><?= htmlspecialchars($old['description'] ?? '') ?></textarea>
             </div>
 
-            <div class="row">
-                <div class="col-md-4 mb-3">
+            <div class="">
+                <div class=" mb-3">
                     <label class="form-label">Giá</label>
                     <input type="text" name="price" class="form-control" value="<?= htmlspecialchars($old['price'] ?? '') ?>">
                 </div>
-                <div class="col-md-4 mb-3">
+
+                <div class=" mb-3">
                     <label class="form-label">Số lượng</label>
                     <input type="text" name="quantity" class="form-control" value="<?= htmlspecialchars($old['quantity'] ?? '') ?>">
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="mb-3">
                     <label class="form-label">Ảnh sản phẩm</label>
                     <input type="file" name="image" accept="image/*" class="form-control" id="imageInput">
                     <div class="mt-2">

@@ -91,5 +91,7 @@
 
         <p>Đã có tài khoản? <a href="<?= BASE_URL ?>?action=login">Đăng nhập</a></p>
     </div>
+    
 </body>
+
 </html>

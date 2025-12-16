@@ -88,13 +88,13 @@
 
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="<?= BASE_ASSETS_UPLOADS . 'products/image.png' ?>" class="slide-img">
+            <img src="<?= BASE_ASSETS_UPLOADS . 'products/2.png' ?>" class="slide-img">
         </div>
         <div class="carousel-item">
-            <img src="<?= BASE_ASSETS_UPLOADS . 'products/image2.png' ?>" class="slide-img">
+            <img src="<?= BASE_ASSETS_UPLOADS . 'products/1.png' ?>" class="slide-img">
         </div>
         <div class="carousel-item">
-            <img src="<?= BASE_ASSETS_UPLOADS . 'products/image1.png' ?>" class="slide-img">
+            <img src="<?= BASE_ASSETS_UPLOADS . 'products/3.png' ?>" class="slide-img">
         </div>
     </div>
 

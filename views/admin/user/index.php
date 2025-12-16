@@ -1,4 +1,4 @@
-<a href="<?= BASE_URL_ADMIN ?>&action=add-user" class="btn btn-success">+ Thêm tài khoản</a>
+<a href="<?= BASE_URL_ADMIN ?>&action=add-user" class="btn btn-success">Thêm</a>
 
 <table class="table table-bordered">
     <tr>

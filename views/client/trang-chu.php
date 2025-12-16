@@ -33,7 +33,7 @@
     </div>
 
     <!-- Sản phẩm mới -->
-    <h3 class="mt-4">Sản phẩm mới</h3>
+    <h3 class="">Sản phẩm mới</h3>
     <div class="row">
         <?php if (!empty($products)): ?>
             <?php foreach ($products as $product): ?>
@@ -57,4 +57,5 @@
             <p>Không có sản phẩm mới.</p>
         <?php endif; ?>
     </div>
+    
 </div>
